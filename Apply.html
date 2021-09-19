@@ -1,0 +1,135 @@
+<html>
+<h2>Employment Application</h2>
+<script type="text/javascript">
+<style>
+      body {
+        background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.biacon.net%2Fregistration-form-background-images-7%2F&psig=AOvVaw0NuIvHaAZso8aV1_LI8ExC&ust=1632057247260000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJCEyZnNiPMCFQAAAAAdAAAAABAJ.jpeg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+      }
+    </style>
+
+function ValidateForm(frm) {
+if (frm.First_Name.value == "") {alert('First name is required.');frm.First_Name.focus();return false;}
+if (frm.Last_Name.value == "") {alert('Last name is required.');frm.Last_Name.focus();return false;}
+if (frm.Email_Address.value == "") {alert('Email address is required.');frm.Email_Address.focus();return false;}
+if (frm.Email_Address.value.indexOf("@") < 1 || frm.Email_Address.value.indexOf(".") < 1) {alert('Please enter a valid email address.');frm.Email_Address.focus();return false;}
+if (frm.Position.value == "") {alert('Position is required.');frm.Position.focus();return false;}
+if (frm.Phone.value == "") {alert('Phone is required.');frm.Phone.focus();return false;}
+if (frm.skip_CaptchaCode.value == "") {alert('Enter security code.');frm.skip_CaptchaCode.focus();return false;}
+return true; }
+function ReloadCaptchaImage(captchaImageId) {
+var obj = document.getElementById(captchaImageId);
+var src = '' + obj.src;
+obj.src = '';
+var date = new Date();
+var pos = src.indexOf('&rad=');
+if (pos >= 0) { src = src.substr(0, pos); }
+obj.src = src + '&rad=' + date.getTime();
+return false; }
+</script>
+<hr />
+<form action="https://www.SnapHost.com/captcha/send.aspx" id="ContactUsCaptchaWebForm" method="post" onsubmit="return ValidateForm(this);" target="_top">
+<input id="skip_WhereToSend" name="skip_WhereToSend" type="hidden" value="cutesamu001@gmail.com" />
+<input id="skip_SnapHostID" name="skip_SnapHostID" type="hidden" value="NSJ7ZS3J23WX" />
+<input id="skip_WhereToReturn" name="skip_WhereToReturn" type="hidden" value="https://ditkgmjr.paperform.co" />
+<input id="skip_Subject" name="skip_Subject" type="hidden" value="Employment Application" />
+<input id="skip_ShowUsersIp" name="skip_ShowUsersIp" type="hidden" value="1" />
+<input id="skip_SendCopyToUser" name="skip_SendCopyToUser" type="hidden" value="1" />
+<table border="0" cellpadding="5" cellspacing="0">
+<tr>
+<td style="width:50%">
+<b>First name *</b><br />
+<input name="First_Name" type="text" maxlength="50" style="width:260px" />
+</td>
+<td style="width:50%">
+<b>Username *</b><br />
+<input name="username" type="text" maxlength="50" style="width:260px" />
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<b>Email *</b><br />
+<input name="Email_Address" type="text" maxlength="100" style="width:535px" />
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<b>Date of Birth</b><br />
+<input name="date of birth" type="date" maxlength="255" value="http://" style="width:535px" />
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<b>Age *</b><br />
+<input name="age" type="text" maxlength="100" style="width:535px" />
+</td>
+</tr>
+<tr>
+<td style="width:50%">
+<b>hours a week are you willing to work?</b><br />
+<input name="hours" type="text" maxlength="50" style="width:260px" />
+</td>
+<td style="width:50%">
+<b>Why do you want this job?</b><br />
+<input name="job" type="text" maxlength="50" style="width:260px" />
+</td>
+</tr>
+<tr>
+<td style="width:50%">
+<b>Name of College *</b><br />
+<input name="college name" type="text" maxlength="50" style="width:260px" />
+</td>
+<td style="width:50%">
+<b>Current Education Year</b><br />
+<input name="education year" type="text" maxlength="50" style="width:260px" />
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<b>Gender:</b><br />
+<input name="gender" type="radio" value="Male" checked="checked" /> Male &nbsp; &nbsp; &nbsp;
+<input name="gender" type="radio" value="Female" /> Female &nbsp; &nbsp; &nbsp;
+<input name="gender" type="radio" value="Other" /> Other
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<b>Upload Your Resume/CV Here:</b><br />
+<input type="file" id="input_303" name="q303_uploadResume" class="form-upload validate[upload]" data-imagevalidate="yes" data-file-accept="pdf, doc, docx, xls, csv, txt, rtf, html, zip, mp3, wma, mpg, flv, avi, jpg, jpeg, png, gif" data-file-maxsize="10240" data-file-minsize="0" data-file-limit="0" data-component="fileupload">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<b>Reference / Comments / Questions</b><br />
+<textarea name="Reference" rows="7" cols="40" style="width:535px"></textarea>
+</td>
+</tr>
+</table>
+<br />
+<div style="text-align:center;">
+<table border="0" cellpadding="0" cellspacing="0" style="text-align:center; width:300px; margin:auto;">
+<tr><td colspan="2" style="padding-bottom:18px;">
+<tr>
+<td><i>Enter security code</i></td>
+<td>SECURITY CODE</td>
+</tr>
+<tr>
+<td>
+<input name="skip_CaptchaCode" type="text" maxlength="6"
+style="width:130px; height:28px; font-size:24px; text-align:center;" />
+</td>
+<td>
+<a href="https://www.snaphost.com/captcha/ReadyForms/EmploymentApplicationForm.aspx"><img id="CaptchaImage" alt="Employment Application form" title="HTML code for Employment Application web form"
+style="margin-left:20px; border:1px solid #999999;"
+src="https://www.SnapHost.com/captcha/CaptchaImage.aspx?id=NSJ7ZS3J23WX&ImgType=2" /></a>
+<br /><a href="#" onclick="return ReloadCaptchaImage('CaptchaImage');"><span style="font-size:12px;">reload image</span></a>
+</td>
+</tr>
+</table>
+<br /><br />
+<input name="submit" type="submit" value="Send Application" />
+</div>
+</form>
+</html>
